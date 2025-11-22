@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: burlywood; */
+}
+
+body{
+  background-color:cadetblue;
+}
+
+#nav{
+    background-color: rgb(24, 112, 115);
+    text-align: center;
+    justify-items: center;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+  #item {
+    padding-top: 30px;
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+  }
+
+  #rock{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 101, 211);
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #rock:hover{
+    opacity: 0.5;
+  }
+
+  #rock img{
+     width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  #paper{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 136, 255);
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  #paper:hover{
+    opacity: 0.5;
+  }
+
+  #paper img{
+     width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  #scissor{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(111, 255, 159);
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  #scissor:hover{
+    opacity: 0.5;
+  }
+
+  #scissor img{
+     width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+   #pp {
+    padding-top: 30px;
+    display: flex;
+    gap: 130px; 
+    font-size: 40px;
+    margin-top: 50px;
+    margin-right: 50px;
+    justify-content: center; 
+  }
+
+  #yy {
+    padding-top: 30px;
+    display: flex;
+    font-size: 40px;
+    gap: 50px; 
+    justify-content: center; 
+  }
+
+  #result {
+     margin-top: 50px;
+    text-align: center;
+
+  }
+
+  #p{
+    display: inline-block; /* Keeps it inline with styling */
+    background-color: aquamarine;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-radius: 20px; 
+    
+  }
